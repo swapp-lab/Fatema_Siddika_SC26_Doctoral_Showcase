@@ -11,12 +11,6 @@ Collaborators: Md Anwar Hossen¹, Wensheng Zhang¹, Anuj Sharma¹, Tanwi Mallick
 
 ---
 
-## Dissertation Statement
-
-This dissertation aims to enable large models to keep learning after deployment, adapting to new tasks and new data across institutions that cannot share data, without retraining from scratch or forgetting prior knowledge.
-
-Large models can learn continually across heterogeneous, privacy-constrained clients when adaptation is confined to compact components that separate shared from task- and client-specific knowledge. Sparse experts in parameter space, and interventions and prototypes in representation space, provide this separation, letting models learn new tasks without forgetting, share knowledge without sharing data, and exchange only small updates that combine without interference.
-
 ## Abstract
 
 This dissertation addresses two fundamental challenges in distributed machine learning: client heterogeneity and continual adaptation to new tasks. It develops efficient fine-tuning and representation-learning frameworks that let distributed models acquire new knowledge and align it across clients without communication bottlenecks or catastrophic forgetting.
@@ -32,14 +26,6 @@ Finally, we introduce FedSEAM, which extends sparse experts to federated continu
 Together, these contributions chart a path toward scalable, resource-aware machine learning systems that bridge decentralized efficiency and continual real-world deployment, learning new tasks across privacy-constrained environments without forgetting.
 
 
-
-## Key Insights
-
-- **FedProtoKD:** class geometry must be learned, not averaged. Adaptive margins keep heterogeneous clients semantically aligned.
-- **FedReFT:** representations, not weights, are the right unit to federate. They are semantically aligned, robust to heterogeneity, and highly parameter-efficient.
-- **SETA:** sparsity is structure. Splitting shared from unique subspaces decouples plasticity from stability.
-- **FedSEAM:** agreement is geometric. Merging client experts only where their subspaces align lets clients gain global knowledge without erasing local or prior-task knowledge.
-
 ## Publications
 
 1. **FedReFT:** Federated Representation Fine-Tuning with All-But-Me Aggregation. *EACL 2026.*
@@ -47,12 +33,7 @@ Together, these contributions chart a path toward scalable, resource-aware machi
 3. **SETA:** Split-on-Share: Mixture of Sparse Experts for Task-Agnostic Continual Learning. *Under review.*
 4. **FedSEAM:** Federated Continual Learning of LLMs via Subspace Expert Agreement Merging. *Under review.*
 
-## Repository Contents
 
-| File | Description |
-|---|---|
-| `Fatema_SC26_DoctoralShowcase_Poster.pdf` | Full poster |
-| `SC26_poster_thumbnail.jpg` | Thumbnail for the online poster gallery |
 
 ## Links
 
