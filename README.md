@@ -39,8 +39,10 @@ Together, these contributions chart a path toward scalable, resource-aware machi
 
 - SwAPP Lab: https://github.com/swapp-lab
 
-## Acknowledgments
+## Contact
 
-Joint work with Md Anwar Hossen (equal contribution on FedReFT), Ali Jannesari (advisor, Iowa State University), Wensheng Zhang and Anuj Sharma (Iowa State University), Tanwi Mallick (Argonne National Laboratory), J. Pablo Muñoz (Intel Labs), and Tanya Roosta (UC Berkeley / Amazon / AMD). FedSEAM is joint work with Ravi Madduri and Zilinghan Li (Argonne National Laboratory).
+- **Fatema Siddika**
+- Email: [fatemask@iastate.edu](mailto:fatemask@iastate.edu)
+- LinkedIn: [linkedin.com/in/fatemasiddika](https://www.linkedin.com/in/fatemasiddika/)
 
 
